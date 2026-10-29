@@ -17,8 +17,16 @@ Working repository for a new, independent service of simple tournament games.
 - `tournament-games` is an assistant-selected working name, not a product-name decision.
 - Creating `domanditdw-arch/tournament-games` on GitHub returned HTTP 403:
   `Resource not accessible by integration`.
-- This local Git repository is the prepared artifact. No GitHub remote is configured.
-- Next step: establish an accessible GitHub destination and push this repository.
+- The user subsequently created `domanditdw-arch/tournament-games` on GitHub.
+- Verified on 2026-10-29: the remote repository is public and empty.
+- `origin` now points to `https://github.com/domanditdw-arch/tournament-games.git`.
+- The non-writing push check (`git push --dry-run`) returned HTTP 403:
+  permission denied. No project files have been sent to GitHub.
+- The GitHub integration's repository list is still empty; public read access
+  does not establish integration write access.
+- Visibility is awaiting the user's choice before project files are sent.
+- Next step: grant the GitHub integration access to this repository, then verify
+  write access and transfer the prepared local history.
 
 Creation of the local repository does not confirm a published Codex Cloud
 environment or a deployed application.
