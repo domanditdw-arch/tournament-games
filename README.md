@@ -11,22 +11,16 @@ Working repository for a new, independent service of simple tournament games.
 - The first game and application technology are not yet decided.
 - No application, dependency installation, or application tests exist yet.
 
-## Repository setup — 2026-10-29
+## Repository
 
-- The user requested a new repository in the project conversation.
-- `tournament-games` is an assistant-selected working name, not a product-name decision.
-- Creating `domanditdw-arch/tournament-games` on GitHub returned HTTP 403:
-  `Resource not accessible by integration`.
-- The user subsequently created `domanditdw-arch/tournament-games` on GitHub.
-- Verified on 2026-10-29: the remote repository is public and empty.
-- `origin` now points to `https://github.com/domanditdw-arch/tournament-games.git`.
-- The non-writing push check (`git push --dry-run`) returned HTTP 403:
-  permission denied. No project files have been sent to GitHub.
-- The GitHub integration's repository list is still empty; public read access
-  does not establish integration write access.
-- Visibility is awaiting the user's choice before project files are sent.
-- Next step: grant the GitHub integration access to this repository, then verify
-  write access and transfer the prepared local history.
+- GitHub: https://github.com/domanditdw-arch/tournament-games
+- Visibility: public, explicitly chosen by the user on 2026-10-29.
+- `tournament-games` is a working repository name, not a product-name decision.
 
-Creation of the local repository does not confirm a published Codex Cloud
-environment or a deployed application.
+## Next project step
+
+Prepare repository instructions and the project state documents:
+`AGENTS.md`, `docs/PROJECT.md`, `docs/LESSONS.md`, and `docs/REVIEW.md`.
+
+A repository alone does not confirm a published Codex Cloud environment or a
+deployed application. No application checks can run until an implementation exists.
