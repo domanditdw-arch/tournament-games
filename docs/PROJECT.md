@@ -7,7 +7,7 @@
 - Dowody wykonania: historia Git i [bieżący raport](REVIEW.md); wnioski: [LESSONS.md](LESSONS.md).
 
 ## Etap i decyzje
-- Etap: organizacja repo i środowiska; brak implementacji gry, publikacji i wyników pilotażu.
+- Etap: minimalny workflow repo przygotowany i sprawdzony; następny etap to wybór prototypu. Brak implementacji gry, publikacji i wyników pilotażu.
 - Cel użytkownika: zabawa, rywalizacja i pokonywanie innych; osobny projekt, bez importu z Play. Źródło: S1.
 - Rynek międzynarodowy, interfejs po angielsku, współpraca po polsku i krok po kroku. Źródła: S1–S2.
 - Repo `domanditdw-arch/tournament-games` jest publiczne; widoczność wybrał użytkownik. Nazwa repo pozostaje robocza. Źródło: S3.
@@ -20,7 +20,7 @@
 - Bieżące założenie techniczne asystenta: dokumentacja oraz Bash/Git bez zależności aplikacji. Propozycja dla małego prototypu: HTML/CSS/JavaScript bez backendu; uzasadnienie w [następnym zadaniu](NEXT_TASK.md).
 
 ## Wynik i otwarte sprawy
-- Ostatni potwierdzony wynik przed tą zmianą: zapis i ponowny odczyt repo, zgodne `main` i `origin/main`, rewizja `fb47c8e33a30407bc07a4841dd1bc3bd3554a187`. Wyniki bieżących kontroli zapisuje REVIEW.
+- Ostatni wynik: instrukcje i skrypty w rewizji `1f21f6fba73f8aa1588fdb4b42aca11f352af67a`; setup przeszedł dwukrotnie bez zmian plików i w czystej lokalnej kopii Git. Zapis na GitHub i ponowny odczyt potwierdzone. Szczegóły: REVIEW.
 - Otwarte: wybór pierwszej gry i stosu aplikacji, zasady remisów i porównywalności plansz; świeże opublikowane środowisko Cloud nie zostało zweryfikowane.
 - S2 opisuje wieczorny przegląd około 19:00 Europe/Warsaw; w tej sesji nie sprawdzono harmonogramu ani jego dostępu do repo. Raport przekazuje się linkiem, bez obietnicy synchronizacji.
 
